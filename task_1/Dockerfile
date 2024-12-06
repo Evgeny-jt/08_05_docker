@@ -1,0 +1,5 @@
+FROM nginx:1.27
+
+COPY . .
+
+EXPOSE 80
